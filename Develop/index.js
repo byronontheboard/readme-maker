@@ -117,8 +117,7 @@ function init() {
 
 // Function to generate the content of the README file based on user answers
 function generateReadmeContent(answers) {
-  return `
-# ${answers.projectTitle}
+  return `# ${answers.projectTitle}
 
 ${answers.projectDescription}
 
@@ -132,28 +131,25 @@ ${answers.projectDescription}
 - [License](#license)
 
 ## Installation
-
 ${answers.projectInstall}
 
 ## Usage
-
 ${answers.projectUsage}
 
 ## Contribution
-
 ${answers.projectContribution}
 
 ## Testing
-
 ${answers.projectTest}
 
 ## Questions
-
 If you have any questions regarding this project, please contact ${answers.firstName} ${answers.lastName} at ${answers.userEmail}. You can also find more of their work on GitHub: [${answers.userGitHub}](https://github.com/${answers.userGitHub})
 
 ## License
-
 This project is licensed under the ${answers.license} license.
+### ${answers.license}
+${answers.license.description}
+
 `;
 };
 
