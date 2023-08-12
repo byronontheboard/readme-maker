@@ -30,26 +30,26 @@ const questions = [
 
   {
     type: "input",
-    name: "projectInstall",
-    message: "What are the instructions for installation?",
-  },
-
-  {
-    type: "input",
     name: "projectUsage",
     message: "How is this project utilized?",
   },
 
   {
     type: "input",
-    name: "projectContribution",
-    message: "How can others contribute to this project?",
+    name: "projectInstall",
+    message: "What are the instructions for installation?",
   },
 
   {
     type: "input",
     name: "projectTest",
     message: "How can this project be tested?",
+  },
+
+  {
+    type: "input",
+    name: "projectContribution",
+    message: "How can others contribute to this project?",
   },
 
   {
