@@ -8,9 +8,8 @@ This application was designed in order to assist the user in creating a README.m
 - [Usage](#projectUsage)
 - [Contribution](#projectContribution)
 - [Tests](#projectTest)
-- [License](#userLicense)
 - [Questions](#questions)
-- [Github](#userGitHub)
+- [License](#userLicense)
 
 ## Installation
 To install this project, please enter 'npm install' into the command line of your Terminal. Then use the command node index.js to get started.
