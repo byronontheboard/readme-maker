@@ -85,7 +85,8 @@ const questions = [
             value: 'MIT',
             description: 'A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.',
         }
-    ]},
+    ]
+  },
 ];
 
 // TODO: Create a function to write README file
@@ -96,7 +97,8 @@ function writeToFile(fileName, data) {
     } else {
       console.log(`README file (${fileName}) created successfully!`);
     }
-  });
+  }
+  );
 };
 
 // TODO: Create a function to initialize app
@@ -122,13 +124,14 @@ function generateReadmeContent(answers) {
 ${answers.projectDescription}
 
 ## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contribution](#contribution)
-- [Testing](#testing)
+- [Description](#projectDescription)
+- [Installation](#projectInstall)
+- [Usage](#projectUsage)
+- [Contribution](#projectContribution)
+- [Tests](#projectTest)
+- [License](#userLicense)
 - [Questions](#questions)
-- [License](#license)
+- [Github](#userGitHub)
 
 ## Installation
 ${answers.projectInstall}
@@ -147,8 +150,6 @@ If you have any questions regarding this project, please contact ${answers.first
 
 ## License
 This project is licensed under the ${answers.license} license.
-${license.description}
-
 `;
 };
 

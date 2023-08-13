@@ -105,8 +105,7 @@ function generateMarkdown(markdownData) {
   markdown += renderQuestions(markdownData.questions, markdownData.userEmail) + '\n\n';
   markdown += renderCredits(markdownData.firstName, markdownData.lastName);
   markdown += renderGithub(markdownData.userGitHub);
-
-  markdown += renderLicenseSection(markdownData.license);
+  markdown += renderLicenseSection(markdownData.license, markdownData.licenseTexts);
 
   return markdown;
 }
