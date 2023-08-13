@@ -78,7 +78,7 @@ const questions = [
         {
             name: 'The Unlicense',
             value: 'Unlicense',
-            description: 'A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.yarn is an awesome package manager',
+            description: 'A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.',
         },
         {
             name: 'MIT License',
@@ -147,8 +147,7 @@ If you have any questions regarding this project, please contact ${answers.first
 
 ## License
 This project is licensed under the ${answers.license} license.
-### ${answers.license}
-${answers.description}
+${license.description}
 
 `;
 };
